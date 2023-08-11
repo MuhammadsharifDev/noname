@@ -6,10 +6,12 @@ class TextItems {
     required IconData icons,
     required String text,
     IconData? secondIcon,
+    Color? color,
   }) {
     return InputDecoration(
       filled: true,
-      fillColor: Colors.grey.withOpacity(0.1),
+      fillColor:color,
+      prefixIcon:Icon(icons,color: Colors.grey,),
       suffixIcon: Icon(secondIcon, color: Colors.grey.withOpacity(0.5),),// Background color
       border: OutlineInputBorder(
           // Border// Border color

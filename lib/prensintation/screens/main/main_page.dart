@@ -15,10 +15,10 @@ class MainPage extends StatelessWidget {
         return Scaffold(
           body: IndexedStack(
             index: state.bottomMenu.index,
-            children: const [
+            children:  [
             HomePage(),
-              CatalogPage(),
-              ProfilePage(),
+              const CatalogPage(),
+              const ProfilePage(),
             ],
           ),
           bottomNavigationBar: BottomNavigationBar(
