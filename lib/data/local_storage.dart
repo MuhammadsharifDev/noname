@@ -42,7 +42,7 @@ class StorageRepository {
     return _sharedPreferences!.getInt(key) ?? 0;
   }
 
-  static String getStringt(String key) {
+  static String getString(String key) {
     if (_sharedPreferences == null) return '';
     return _sharedPreferences!.getString(key) ?? '';
   }

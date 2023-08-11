@@ -3,7 +3,8 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
-import 'package:noname/screens/profile/model.dart';
+import 'package:noname/prensintation/screens/profile/model.dart';
+
 
 part 'profile_event.dart';
 part 'profile_state.dart';

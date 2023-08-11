@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:noname/screens/profile/model.dart';
+import 'package:noname/prensintation/screens/profile/model.dart';
+
 
 import 'bloc/profile_bloc.dart';
 
