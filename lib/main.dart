@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         BlocProvider(create: (_) => CatalogBloc()),
         BlocProvider(create: (_) => ProfileBloc()),
         BlocProvider(create: (_) => LoginBloc()),
-        BlocProvider(create: (_) => HomeBloc()),
+        BlocProvider(create: (_) => HomeBloc()..add(ListEvent())),
       ],
       child: const MaterialApp(
         debugShowCheckedModeBanner: false,

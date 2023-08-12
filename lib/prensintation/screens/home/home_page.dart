@@ -83,7 +83,7 @@ class HomePage extends StatelessWidget {
                         padding: const EdgeInsets.only(left: 24),
                           itemCount: state.items.length,
                         scrollDirection: Axis.horizontal,
-                        itemBuilder: (context, index) => Container(
+                        itemBuilder: (context,int  index) => Container(
                           width: 122,
                           decoration:  BoxDecoration(
                             color: const Color(0xffF86A2E),
